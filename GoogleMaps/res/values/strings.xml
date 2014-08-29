@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleMaps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textcoordenadas">Buscar por coordenadas</string>
+    <string name="textlat">Latitud</string>
+    <string name="textlong">Longitud</string>
+    <string name="button_search_coord">Ir</string>
+    <string name="text_search_by_name">Buscar por nombre</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="hint_nombre">Calle, Ciudad, etc.</string>
+    <string name="button_my_location">Activar mi ubicación</string>
+    <string name="text_my_location">Activar mi ubicación</string>
+
+</resources>

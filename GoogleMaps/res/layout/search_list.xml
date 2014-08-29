@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="134151.92"
+        android:background="#FFADCFFF"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.33"
+                android:gravity="bottom|left"
+                android:text="@string/textlat"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.83"
+                android:gravity="bottom|left"
+                android:text="@string/textlong"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/buttonCoordenadas"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_buttonir"
+                android:gravity="center_horizontal"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2733.90" >
+
+            <EditText
+                android:id="@+id/editLatitud"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25.93"
+                android:ems="10"
+                android:gravity="bottom|center_horizontal"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="51.74" />
+
+            <EditText
+                android:id="@+id/editLongitud"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_weight="22.67"
+                android:ems="10"
+                android:gravity="bottom|right"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="117.44" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp" >
+
+            <LinearLayout
+                android:layout_width="262dp"
+                android:layout_height="35dp" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|left"
+                    android:text="@string/text_nombre"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/editNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="bottom|left"
+                    android:hint="@string/hint_nombre"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_buttonir"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.01"
+                android:gravity="bottom|left"
+                android:text="@string/text_my_location"
+                android:textSize="17sp" />
+
+            <ToggleButton
+                android:id="@+id/buttonLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.01"
+                android:gravity="center_vertical"
+                android:text="@string/button_my_location" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7782445.50" >
+    </LinearLayout>
+
+</LinearLayout>
